@@ -37,6 +37,3 @@ RUN sed -i '0,/all/s//all\n\n\nchmod +x $KICKSTART\n\n/' /terraria-server/Linux/
 
 # ports used
 EXPOSE 7777
-
-# start server
-CMD [ "/terraria-server/Linux/tModLoaderServer" ]
